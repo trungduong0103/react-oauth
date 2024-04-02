@@ -31,7 +31,7 @@ export default function useLoadGsiScript(
 
   useEffect(() => {
     const scriptTag = document.createElement('script');
-    scriptTag.src = 'https://accounts.google.com/gsi/client';
+    scriptTag.src = 'https://accounts.google.com/gsi/client?hl=zh_CN';
     scriptTag.async = true;
     scriptTag.defer = true;
     scriptTag.nonce = nonce;
